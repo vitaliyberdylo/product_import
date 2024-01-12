@@ -40,4 +40,11 @@ For launch product import run in terminal:
   php bin/console app:product-import ./example/example.json
 ```
 
+To run a command on a schedule, use time-based job scheduler Cron.
+For example at 6 and 18 o'clock daily:
+
+```cronexp
+  0 6,18 * * * php /var/www/product_import/bin/console app:product-import ./path/to/actual.json
+```
+
 [1]: ./example
