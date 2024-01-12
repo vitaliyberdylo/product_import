@@ -32,10 +32,12 @@ Run migrations:
 Application Demo
 ----------------
 
-Example JSON file is already in project in folder example. The file contains enough data to demonstrate how
+Example JSON file is already in project in folder [example][1]. The file contains enough data to demonstrate how
 the import works. 
 
 For launch product import run in terminal:
 ```shell script
-  bin/console app:product-import ./example/example.json
+  php bin/console app:product-import ./example/example.json
 ```
+
+[1]: ./example
